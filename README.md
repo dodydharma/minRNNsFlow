@@ -9,11 +9,7 @@ The repository also includes the [appendix of the paper](https://github.com/dody
 
 ![Qualitative Results](https://github.com/dodydharma/minRNNsFlow/blob/main/docs/gif/qualitative-results.gif)
 
-*Qualitative Results :  
-Training Speed:  
-minLSTM/minGRU models train 350–400% faster than classical LSTM/GRU  
-Accuracy:  
-minRNN models match or outperform classical recurrent models in predictive accuracy*
+*Qualitative results: minLSTM/minGRU train 350–400% faster than LSTM/GRU, matching or surpassing their accuracy.*
 
 ---
 
