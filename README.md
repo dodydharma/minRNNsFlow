@@ -7,6 +7,16 @@ The repository also includes the [appendix of the paper](https://github.com/dody
 
 ---
 
+![Qualitative Results](https://github.com/dodydharma/minRNNsFlow/blob/main/docs/gif/qualitative-results.gif)
+
+*Qualitative Results :  
+Training Speed:  
+minLSTM/minGRU models train 350–400% faster than classical LSTM/GRU  
+Accuracy:  
+minRNN models match or outperform classical recurrent models in predictive accuracy*
+
+---
+
 ![Snapshots from groundtruth data for multi-material multi-phase simulation.  
 Top-left: homogeneous liquid; top-middle: snow; top-right: rope and jelly ball;  
 bottom-left: liquid and snow; bottom-middle: rope and snow; bottom-right: rope and liquid.](https://media.springernature.com/full/springer-static/image/chp%3A10.1007%2F978-3-031-97554-7_17/MediaObjects/667304_1_En_17_Fig1_HTML.png?as=webp)
