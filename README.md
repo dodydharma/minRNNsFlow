@@ -4,3 +4,9 @@ This is the official repository for the paper [*MinRNNs for Lagrangian-Based Sim
 This repository contains the code for the surrogate model of 2D Lagrangian fluid and multimaterial simulations.
 
 The repository also includes the [appendix of the paper](https://github.com/dodydharma/minRNNsFlow/blob/main/docs/appendix.pdf) in the `docs` directory.
+
+---
+
+## Abstract
+
+Motivated by the need for faster yet accurate surrogate modeling of continuum simulations, we investigate whether the recently proposed minimal recurrent networks (minLSTM and minGRU [1] (also available at https://github.com/BorealisAI/minRNNs)) can benefit particle-based fluid and soft-solid simulations. To our knowledge, this is the first work applying these minimal RNNs to Lagrangian data from 2D continuum simulation, including single-phase fluids and multi-material interactions. We embed minLSTM and minGRU in an MLP-based encoder–decoder and compare them against (i) a classical LSTM, and (ii) an MLP baseline with no recurrent core. Where prior studies of minRNNs focused on simpler time-series tasks, our results show that minLSTM and minGRU remain highly effective in these physics-driven settings: they train approximately 350–400% faster than the standard LSTM or GRU, while matching—and often surpassing—their accuracy. Thus, for particle-based continuum simulations, minimal recurrent architectures offer a superior trade-off between computational overhead and predictive performance, thereby advancing real-time or high-fidelity simulation workflows in engineering and visual effects. We conclude that minimal RNNs are well-suited for surrogate modeling of fluid and soft-solid dynamics.
